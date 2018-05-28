@@ -10,38 +10,25 @@ A directory cleanup Windows Service, that monitors changes, and keeps a specifie
 
 # Sample Config:
 {
-
 	"DirectoriesToCleanup": [
 	"\\\\Plex-pc\\tv\\TV\\The Tonight Show Starring Jimmy Fallon",
-
 	"\\\\Plex-pc\\tv\\TV\\Last Week Tonight with John Oliver",
-
 	"\\\\Plex-pc\\tv\\TV\\Vice",
-
 	"\\\\Plex-pc\\tv\\TV\\Real Time with Bill Maher",
-
 	"\\\\Plex-pc\\tv\\TV\\The Ellen DeGeneres Show",
-
 	"\\\\Plex-pc\\TV3\\TV\\Jimmy Kimmel Live",
-
 	"\\\\Plex-pc\\tv3\\TV\\Vice News Tonight",
-
 	"\\\\Plex-pc\\TV2\\TV\\Full Frontal with Samantha Bee"],
-
-	"EnableFileWatcherCleanup": true,
-	
-	"EnableGlobalTimerCleanup": true,
-	
-	"HowOftenInMinutesToCleanup": 1440,
-	
-	"KeepFilesNewerThanThisNumberOfDays": 15,
-	
+	"EnableFileWatcherCleanup": true,	
+	"EnableGlobalTimerCleanup": true,	
+	"HowOftenInMinutesToCleanup": 1440,	
+	"KeepFilesNewerThanThisNumberOfDays": 15,	
 	"MinimumNumberOfFilesToKeep": 10,
 	"Username":"Plex",
 	"Password":"PlexPassword"
-
 }
 
 # Visual Studio Extensions Required
 Microsoft Visual Studio 2017 Installer Projects
+
 Download: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects
