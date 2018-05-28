@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVShowCleanupService", "TVShowCleanupService\TVShowCleanupService.csproj", "{09B1A89C-DD26-4DE5-8104-91FE45CE8852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVShowCleanup", "TVShowCleanup\TVShowCleanup.csproj", "{57BE3C05-F239-443A-89B2-F142381E83B6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupProject", "SetupProject\SetupProject.vdproj", "{39AB1C43-E99C-4280-8256-213FD17FFD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09B1A89C-DD26-4DE5-8104-91FE45CE8852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B1A89C-DD26-4DE5-8104-91FE45CE8852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B1A89C-DD26-4DE5-8104-91FE45CE8852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B1A89C-DD26-4DE5-8104-91FE45CE8852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BE3C05-F239-443A-89B2-F142381E83B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BE3C05-F239-443A-89B2-F142381E83B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BE3C05-F239-443A-89B2-F142381E83B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BE3C05-F239-443A-89B2-F142381E83B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AB1C43-E99C-4280-8256-213FD17FFD64}.Debug|Any CPU.ActiveCfg = Debug
+		{39AB1C43-E99C-4280-8256-213FD17FFD64}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB7F3F7-E12C-4E72-89D7-2D8DAE5E3C75}
+	EndGlobalSection
+EndGlobal
